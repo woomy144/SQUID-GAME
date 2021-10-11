@@ -1,0 +1,206 @@
+
+a:link {
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: White;
+  }
+
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0;
+  }
+  ::-webkit-scrollbar-track {
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.15);
+  }
+  ::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.3);
+  }
+
+body {
+background-color: blueviolet;
+font-family: fantasy;
+width: 100%;
+overflow: scroll;
+height: 100%;
+display: block;
+}
+.menupanele {
+    position: absolute;
+    width: 1511px;
+    height: 111px;
+    background-color: rgb(181, 120, 238);
+    top: -1px;
+    left: -1px;
+}
+.triagle{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 70px;
+}
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    left: 0px;
+}
+.circlecin {
+    position: absolute;
+    background-color: rgb(181, 120, 238);
+    width: 60px;
+    left: 162px;
+    top: 20px;
+    height: 60px;
+    border-radius: 50%;
+}
+.circlecin1 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 65px;
+    top: 18px;
+    left: 160px;
+    border-radius: 50%;
+    height: 65px;
+}
+.squidgametxt {
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    left: 550px;
+    top: -35px;
+}
+.Gametxt {
+    position: absolute;
+    font-size: 70px;
+    top: 90px;
+    left: 620px;
+    color: white;
+}
+.redgreen {
+    position: absolute;
+    width: 600px;
+    cursor: pointer;
+    background-image: url(../img/Redlight-Greenlight.jpg);
+    height: 337.5px;
+    transition: 0.5s;
+    top: 311px;
+    left: 50px;
+}
+.redgreen:hover {
+    position: absolute;
+    width: 600px;
+    cursor: pointer;
+    background-image: url(../img/Redlight-Greenlight-Scrary.jpg);
+    height: 337.5px;
+    transition: 0.5s;
+    top: 311px;
+    left: 50px;
+}
+.honeycomb {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/honeycomb.jpg);
+    height: 337.5px;
+    top: 311px;
+    left: 790px;
+}
+.honeycomb:hover {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/Honeycomb-hover.jpg);
+    height: 337.5px;
+    top: 311px;
+    left: 790px;
+}
+
+.tugwar {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/tugwar.jpg);
+    height: 337.5px;
+    top: 752px;
+    left: 50px;
+}
+.tugwar:hover {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/tugwar-hover.jpg);
+    height: 337.5px;
+    top: 752px;
+    left: 50px;
+}
+
+.marbles {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/marbles.jpg);
+    height: 337.5px;
+    top: 752px;
+    left: 790px;
+}
+.marbles:hover {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/marbles-hover.jpg);
+    height: 337.5px;
+    top: 752px;
+    left: 790px;
+}
+
+.bridge {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/bridge.jpg);
+    height: 337.5px;
+    top: 1193px;
+    left: 50px;
+}
+.bridge:hover {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/bridge-hover.jpg);
+    height: 337.5px;
+    top:  1193px;
+    left: 50px;
+}
+
+.Final {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/Final.jpg);
+    height: 337.5px;
+    top: 1193px;
+    left: 790px;
+}
+.Final:hover {
+    position: absolute;
+    width: 600px;
+    transition: 0.5s;
+    background-image: url(../img/Final-hover.jpg);
+    height: 337.5px;
+    top:  1193px;
+    left: 790px;
+}
+.buttonplay {
+    position: absolute;
+    width: 299px;
+    border-radius: 2%;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(119, 85, 197);
+    top: 1601px;
+    left: 572px;
+}
